@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Lohar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Background: Sky and Grass -->
+        <div class="background">
+            <div class="sky"></div>
+            <div class="clouds">
+                <div class="cloud cloud1"></div>
+                <div class="cloud cloud2"></div>
+                <div class="cloud cloud3"></div>
+            </div>
+            <div class="grass"></div>
+        </div>
+
+        <!-- Main Resume Window -->
+        <div class="resume-window">
+            <div class="window-title">MY PORTFOLIO</div>
+            
+            <div class="resume-content">
+                <!-- Top Section -->
+                <div class="top-section">
+                    <!-- Left Panel: Socials, Languages, Likings -->
+                    <div class="left-panel">
+                        <div class="panel-section">
+                            <h3 class="section-title">SOCIAL MEDIA</h3>
+                            <div class="social-item" data-link="https://www.instagram.com/__ajay_lhr_182__/">
+                                <span class="icon instagram-icon">📷</span>
+                                <span>__ajay_lhr_182__</span>
+                            </div>
+                            <div class="social-item" data-link="https://www.linkedin.com/in/ajay-lohar-64b91733b/">
+                                <span class="icon linkedin-icon">in</span>
+                                <span>ajay-lohar</span>
+                            </div>
+                            <div class="social-item" data-link="https://www.youtube.com/@knoxboyz">
+                                <span class="icon youtube-icon">▶</span>
+                                <span>@knoxboyz</span>
+                            </div>
+                            <div class="social-item" data-link="https://github.com/ajaylohar8453-code">
+                                <span class="icon github-icon">
+                                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo" class="icon-image">
+                                </span>
+                                <span>@ajaylohar8453-code</span>
+                            </div>
+                        </div>
+
+                        <div class="panel-section">
+                            <h3 class="section-title">LANGUAGES</h3>
+                            <div class="language-item">
+                                <span>Hindi</span>
+                                <div class="skill-bars">
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                </div>
+                            </div>
+                            <div class="language-item">
+                                <span>English</span>
+                                <div class="skill-bars">
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                    <span class="bar"></span>
+                                </div>
+                            </div>
+                            <div class="language-item">
+                                <span>Marathi</span>
+                                <div class="skill-bars">
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                    <span class="bar filled"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-section">
+                            <h3 class="section-title">LIKINGS</h3>
+                            <div class="liking-item" data-type="music">
+                                <span class="liking-icon">♪</span>
+                                <span>Music</span>
+                            </div>
+                            <div class="liking-item" data-type="coding">
+                                <span class="liking-icon">#</span>
+                                <span>Coding</span>
+                            </div>
+                            <div class="liking-item" data-type="gaming">
+                                <span class="liking-icon">👾</span>
+                                <span>Gaming</span>
+                            </div>
+                            <div class="liking-item" data-type="movies">
+                                <span class="liking-icon">🎬</span>
+                                <span>Movies</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Panel: About Me -->
+                    <div class="right-panel">
+                        <div class="browser-window">
+                            <div class="browser-controls">
+                                <span class="control red"></span>
+                                <span class="control yellow"></span>
+                                <span class="control green"></span>
+                            </div>
+                            <div class="browser-title">WWW.ABOUT.ME</div>
+                            <div class="browser-content">
+                                <div class="avatar-container">
+                                    <div class="avatar-frame">
+                                        <img src="profile-pic.png" alt="Ajay Lohar" class="avatar-img" id="profilePic" onerror="this.style.display='none'; document.getElementById('avatarFallback').style.display='flex';">
+                                        <div class="avatar" id="avatarFallback" style="display: none;">👤</div>
+                                    </div>
+                                    <div class="crown">👑</div>
+                                </div>
+                                <div class="info-section">
+                                    <h2 class="name">AJAY LOHAR</h2>
+                                    <div class="contact-info">
+                                        <div class="contact-item">
+                                            <span class="contact-icon">📞</span>
+                                            <span id="phone-display">Click to reveal</span>
+                                        </div>
+                                        <div class="contact-item">
+                                            <span class="contact-icon">✉</span>
+                                            <span>ajaylohar8453@gmail.com</span>
+                                        </div>
+                                        <div class="contact-item">
+                                            <span class="contact-icon">📍</span>
+                                            <span>Pune, Maharashtra, India</span>
+                                        </div>
+                                    </div>
+                                    <div class="summary">
+                                        <p>BCA student at Indira University, Pune, with expertise in C, Python, HTML, and CSS. Passionate about creating interactive, pixel-perfect designs and building engaging web experiences. Also skilled in video editing (DaVinci Resolve) and Photoshop for content creation. Managing YouTube channel @knoxboyz with thumbnail design and video editing. Enthusiastic about coding, music, gaming, and movies. Always learning and building new projects to enhance my skills.</p>
+                                    </div>
+                                </div>
+                                <div class="cursor-animation">
+                                    <div class="cursor">▸</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Section -->
+                <div class="bottom-section">
+                    <!-- Left: Education, Skills, Worked As -->
+                    <div class="bottom-left">
+                        <div class="panel-section">
+                            <h3 class="section-title">EDUCATION</h3>
+                            <div class="timeline-vertical">
+                                <div class="timeline-entry">
+                                    <div class="timeline-dot-empty"></div>
+                                    <div class="timeline-box">
+                                        <span class="timeline-year">2005</span>
+                                        <span class="timeline-detail">Born</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-entry">
+                                    <div class="timeline-dot-filled"></div>
+                                    <div class="timeline-box">
+                                        <span class="timeline-label">SCHOOL</span>
+                                        <span class="timeline-detail">Little Angel School</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-entry">
+                                    <div class="timeline-dot-filled"></div>
+                                    <div class="timeline-box">
+                                        <span class="timeline-label">HIGH SCHOOL</span>
+                                        <span class="timeline-detail">Deogiri College<br>Chhatrapati Sambhajinagar</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-entry">
+                                    <div class="timeline-dot-filled"></div>
+                                    <div class="timeline-box">
+                                        <span class="timeline-label">BCA</span>
+                                        <span class="timeline-detail">Indira University<br>Pune (Ongoing)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-section">
+                            <h3 class="section-title">SKILLS</h3>
+                            <div class="skills-container">
+                                <div class="software-icons">
+                                    <div class="software-icon" title="C Programming">C</div>
+                                    <div class="software-icon" title="HTML">HTML</div>
+                                    <div class="software-icon" title="CSS">CSS</div>
+                                    <div class="software-icon" title="Python">Py</div>
+                                    <div class="software-icon" title="DaVinci Resolve">DR</div>
+                                    <div class="software-icon" title="Photoshop">Ps</div>
+                                </div>
+                                <div class="skills-flowchart">
+                                    <div class="flow-item">WEB DEV</div>
+                                    <div class="flow-item">PROGRAMMING</div>
+                                    <div class="flow-item">PROBLEM SOLVING</div>
+                                    <div class="flow-item">TEAMWORK</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-section">
+                            <h3 class="section-title">ABOUT</h3>
+                            <div class="work-list">
+                                <div class="work-item">Currently pursuing BCA</div>
+                                <div class="work-item">Building skills in Web Development</div>
+                                <div class="work-item">Open to opportunities</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Portfolio -->
+                    <div class="bottom-right">
+                        <div class="portfolio-section">
+                            <h3 class="section-title">PORTFOLIO DEMOS</h3>
+                            <div class="portfolio-container">
+                                <div class="demo-item">
+                                    <div class="demo-title">Project 1</div>
+                                    <div class="demo-frame">
+                                        <div class="demo-placeholder">Click to load demo</div>
+                                        <iframe src="about:blank" class="demo-iframe" data-src="demo1.html"></iframe>
+                                    </div>
+                                    <div class="demo-description">Interactive Web App</div>
+                                </div>
+                                <div class="demo-item">
+                                    <div class="demo-title">Project 2</div>
+                                    <div class="demo-frame">
+                                        <div class="demo-placeholder">Click to load demo</div>
+                                        <iframe src="about:blank" class="demo-iframe" data-src="demo2.html"></iframe>
+                                    </div>
+                                    <div class="demo-description">Python Program</div>
+                                </div>
+                                <div class="demo-item">
+                                    <div class="demo-title">Project 3</div>
+                                    <div class="demo-frame">
+                                        <div class="demo-placeholder">Click to load demo</div>
+                                        <iframe src="about:blank" class="demo-iframe" data-src="demo3.html"></iframe>
+                                    </div>
+                                    <div class="demo-description">CSS Animation</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="youtube-section">
+                            <h3 class="section-title">YOUTUBE CHANNEL</h3>
+                            <div class="youtube-frame">
+                                <iframe 
+                                    src="https://www.youtube.com/embed?listType=search&list=knoxboyz" 
+                                    title="Knoxboyz YouTube Channel"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+                            <button class="youtube-button" onclick="window.open('https://www.youtube.com/@knoxboyz', '_blank')">
+                                Visit Channel @knoxboyz
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Info Window -->
+    <div class="info-modal" id="infoModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalTitle">INFO</h3>
+                <button class="modal-close" id="modalClose">✕</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Demo Fullscreen Modal -->
+    <div class="demo-modal" id="demoModal">
+        <div class="demo-modal-content">
+            <div class="demo-modal-header">
+                <h3 class="demo-modal-title" id="demoModalTitle">DEMO</h3>
+                <button class="demo-modal-close" id="demoModalClose">✕</button>
+            </div>
+            <div class="demo-modal-body">
+                <iframe id="demoModalIframe" class="demo-modal-iframe"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
